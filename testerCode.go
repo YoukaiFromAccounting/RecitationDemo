@@ -303,7 +303,7 @@ func RemovingFromSlice(tester []string) {
 	fmt.Println(tester)
 }
 
-func sumSlice(u []int) int {
+func SumSlice(u []int) int {
 	sum := 0
 	for _, i := range u {
 		sum = sum + i
