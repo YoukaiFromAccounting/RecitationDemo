@@ -310,3 +310,7 @@ func SumSlice(u []int) int {
 	}
 	return sum
 }
+
+func NewSliceAdd(a int, u []int) {
+	u = append(u, a)
+}
